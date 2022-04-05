@@ -66,6 +66,8 @@ func walkFunc(path string, info os.FileInfo, err error) error {
 			log.Println(path, "上传失败")
 			return nil
 		}
+		// 休息一秒
+		time.Sleep(time.Second)
 		return nil
 	}
 }

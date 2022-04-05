@@ -11,7 +11,7 @@ import (
 // 此处存放所有oneindex的URL
 var urls []string = []string{
 	"https://share.yyyolu.com/images",
-	"https://bb019.yyolu.com/images",
+	"https://bb019.yyyolu.com/images",
 }
 
 func main() {
